@@ -22,8 +22,8 @@ rows = int(input("Enter number of rows : "))
 choice = input("Enter the choice for pattern, A/B/C : ")
 choice = choice.lower()
 if choice == 'a':
-    pattern_A(rows)
+    pattern_A(rows)# call function 
 elif choice == 'b':
-    pattern_B(rows)
+    pattern_B(rows) # call function 
 elif choice == 'c':
-    pattern_C(rows)
+    pattern_C(rows)# call function 
