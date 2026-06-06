@@ -38,3 +38,12 @@ def search():
         print(f'Name = {name_entered}, Phone Number = {contacts[name_entered]}')
     else:
         print(f'Contact {name_entered} not found in contact book.')
+
+def update():
+    name_entered = input("Enter the name of contact to be updated: ")
+    if name_entered in contacts:
+        new_number = input("Enter new number:")
+        contacts[name_entered] = new_number
+        print(f'Contact {name_entered} updated with number {new_number}')
+    else:
+        print(f'Contact {name_entered} not found in contact book.')
