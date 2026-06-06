@@ -25,3 +25,9 @@ def menu():
           "5. View All Contacts"
           "6. Exit"
           )
+
+def add():
+    name = input("Enter name:")
+    number = input("Enter phone number:")
+    contacts[name] = number
+    print(f'Successfully added {name} to the contact book.')
