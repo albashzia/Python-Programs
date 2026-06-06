@@ -55,3 +55,8 @@ def delete():
         print(f'Contact {name_entered} deleted from the contact book.')
     else:
         print(f'Contact {name_entered} not found in contact book.')
+
+def view_all():
+    for name,number in contacts.items():
+        print(f'Name = {name}, Number = {number}')
+    print("\nEnd of Contact Book Reached")
