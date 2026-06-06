@@ -17,3 +17,4 @@ book.pop("pages")
 print(book)
 
 print(book.keys())
+print(book.values())
