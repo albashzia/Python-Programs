@@ -47,3 +47,11 @@ def update():
         print(f'Contact {name_entered} updated with number {new_number}')
     else:
         print(f'Contact {name_entered} not found in contact book.')
+
+def delete():
+    name_entered = input("Enter the name of contact to be deleted:")
+    if name_entered in contacts:
+        contacts.pop(name_entered)
+        print(f'Contact {name_entered} deleted from the contact book.')
+    else:
+        print(f'Contact {name_entered} not found in contact book.')
