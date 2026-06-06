@@ -15,3 +15,13 @@ contacts = {
     "Zeeshan Tariq": "+92-347-1133557",
     "Rehman": "+92-314-2244668"
 }
+
+def menu():
+    print(
+          "1. Add Contact "
+          "2. Search Contact "
+          "3. Update Contact"
+          "4. Delete Contact"
+          "5. View All Contacts"
+          "6. Exit"
+          )
