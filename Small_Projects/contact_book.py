@@ -31,3 +31,10 @@ def add():
     number = input("Enter phone number:")
     contacts[name] = number
     print(f'Successfully added {name} to the contact book.')
+
+def search():
+    name_entered = input("Enter name:")
+    if name_entered in contacts:
+        print(f'Name = {name_entered}, Phone Number = {contacts[name_entered]}')
+    else:
+        print(f'Contact {name_entered} not found in contact book.')
