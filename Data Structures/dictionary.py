@@ -19,3 +19,5 @@ print(book)
 print(book.keys())
 print(book.values())
 print(book.items())
+
+print(book.get("pages"))
