@@ -37,3 +37,7 @@ print(numbers_list.count(4))
 numbers_list.sort()
 for k in numbers_list:
     print(k)
+
+words_list.reverse()
+for l in words_list:
+    print(l)
