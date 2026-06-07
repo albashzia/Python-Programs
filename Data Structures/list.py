@@ -9,6 +9,9 @@ words_list.insert(2,"Lamp")
 
 numbers_list.remove(4)
 words_list.remove("Laptop")
+
+numbers_list.pop(4)
+words_list.pop(1)
 for i in numbers_list:
     print(i)
 
