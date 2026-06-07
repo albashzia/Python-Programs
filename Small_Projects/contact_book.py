@@ -18,7 +18,7 @@ contacts = {
 
 def menu():
     print(
-          "1. Add Contact "
+          "\n1. Add Contact "
           "\n2. Search Contact "
           "\n3. Update Contact"
           "\n4. Delete Contact"
@@ -60,3 +60,23 @@ def view_all():
     for name,number in contacts.items():
         print(f'Name = {name}, Number = {number}')
     print("\nEnd of Contact Book Reached")
+
+while True:
+    print("=====================")
+    print("    Contact Book")
+    print("=====================")
+    menu()
+    num = int(input("Enter the number: "))
+    if num==1:
+        add()
+    elif num==2:
+        search()
+    elif num==3:
+        update()
+    elif num==4:
+        delete()
+    elif num==5:
+        view_all()
+    elif 6:
+        print("Exiting the contact book.")
+        exit()
