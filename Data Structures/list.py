@@ -12,8 +12,12 @@ words_list.remove("Laptop")
 
 numbers_list.pop(4)
 words_list.pop(1)
+
 for i in numbers_list:
     print(i)
 
 for j in words_list:
     print(j)
+
+print(len(numbers_list))
+print(len(words_list))
