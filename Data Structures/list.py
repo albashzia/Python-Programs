@@ -21,3 +21,13 @@ for j in words_list:
 
 print(len(numbers_list))
 print(len(words_list))
+
+if 3 in numbers_list:
+    print("Found")
+else:
+    print("Not found")
+
+if "Pen" in words_list:
+    print("Found")
+else:
+    print("Not found")
