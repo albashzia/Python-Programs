@@ -33,3 +33,7 @@ else:
     print("Not found")
 
 print(numbers_list.count(4))
+
+numbers_list.sort()
+for k in numbers_list:
+    print(k)
