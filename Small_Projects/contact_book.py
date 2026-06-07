@@ -19,11 +19,11 @@ contacts = {
 def menu():
     print(
           "1. Add Contact "
-          "2. Search Contact "
-          "3. Update Contact"
-          "4. Delete Contact"
-          "5. View All Contacts"
-          "6. Exit"
+          "\n2. Search Contact "
+          "\n3. Update Contact"
+          "\n4. Delete Contact"
+          "\n5. View All Contacts"
+          "\n6. Exit"
           )
 
 def add():
