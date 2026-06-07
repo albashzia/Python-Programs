@@ -77,6 +77,8 @@ while True:
         delete()
     elif num==5:
         view_all()
-    elif 6:
+    elif num== 6:
         print("Exiting the contact book.")
         exit()
+    else:
+        print("Incorrect Input")
