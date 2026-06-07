@@ -31,3 +31,5 @@ if "Pen" in words_list:
     print("Found")
 else:
     print("Not found")
+
+print(numbers_list.count(4))
