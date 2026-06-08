@@ -14,3 +14,10 @@ def menu():
 def add_item():
     item = input("Enter the item to add to list: ")
     shopping_list.append(item)
+
+def remove_item():
+    item = input("Enter the item to remove from list: ")
+    if item in shopping_list:
+        shopping_list.remove(item)
+    else:
+        print("Item not found in list.")
