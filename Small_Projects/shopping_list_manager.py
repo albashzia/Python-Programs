@@ -32,3 +32,6 @@ def search_item():
         print(f"Item Found at index {shopping_list.index(item)}")
     else:
         print("Item not found.")
+
+def count_items():
+    print(f'The number of items in list is {len(shopping_list)}')
