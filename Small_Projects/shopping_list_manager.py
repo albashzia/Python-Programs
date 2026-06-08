@@ -25,3 +25,10 @@ def remove_item():
 def view_list():
     for i in shopping_list:
         print(i)
+
+def search_item():
+    item = input("Enter name of item to search:")
+    if item in shopping_list:
+        print(f"Item Found at index {shopping_list.index(item)}")
+    else:
+        print("Item not found.")
