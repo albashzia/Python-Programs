@@ -10,3 +10,7 @@ def menu():
         "\n6. Clear List"
         "\n7. Exit"
     )
+
+def add_item():
+    item = input("Enter the item to add to list: ")
+    shopping_list.append(item)
