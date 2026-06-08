@@ -39,3 +39,6 @@ def count_items():
 def clear_list():
     shopping_list.clear()
 
+while True:
+    menu()
+    num = input("Enter your choice: ")
