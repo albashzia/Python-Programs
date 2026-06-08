@@ -21,3 +21,7 @@ def remove_item():
         shopping_list.remove(item)
     else:
         print("Item not found in list.")
+
+def view_list():
+    for i in shopping_list:
+        print(i)
