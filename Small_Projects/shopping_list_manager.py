@@ -41,4 +41,21 @@ def clear_list():
 
 while True:
     menu()
-    num = input("Enter your choice: ")
+    num = int(input("Enter your choice: "))
+    if num==1:
+        add_item()
+    elif num==2:
+        remove_item()
+    elif num==3:
+        view_list()
+    elif num==4:
+        search_item()
+    elif num==5:
+        count_items()
+    elif num== 6:
+        clear_list()
+    elif num==7:
+        print("Exiting the contact book.")
+        exit()
+    else:
+        print("Incorrect Input")
