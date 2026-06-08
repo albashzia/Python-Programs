@@ -35,3 +35,7 @@ def search_item():
 
 def count_items():
     print(f'The number of items in list is {len(shopping_list)}')
+
+def clear_list():
+    shopping_list.clear()
+
