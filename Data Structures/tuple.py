@@ -5,3 +5,5 @@ print(numbers_tuple[4])
 print(numbers_tuple.count(2))
 
 print(numbers_tuple.index(6))
+
+print(len(numbers_tuple))
