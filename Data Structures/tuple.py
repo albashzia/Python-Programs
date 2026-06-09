@@ -10,3 +10,5 @@ print(len(numbers_tuple))
 
 print(max(numbers_tuple))
 print(min(numbers_tuple))
+
+print(sum(numbers_tuple))
