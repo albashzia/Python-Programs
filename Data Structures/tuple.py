@@ -7,3 +7,6 @@ print(numbers_tuple.count(2))
 print(numbers_tuple.index(6))
 
 print(len(numbers_tuple))
+
+print(max(numbers_tuple))
+print(min(numbers_tuple))
