@@ -22,3 +22,5 @@ print(len(number_set2))
 
 print(max(number_set1))
 print(min(number_set1))
+
+print(sum(number_set1))
