@@ -19,3 +19,6 @@ number_set5 = number_set1.difference(number_set2)
 print(number_set5)
 
 print(len(number_set2))
+
+print(max(number_set1))
+print(min(number_set1))
