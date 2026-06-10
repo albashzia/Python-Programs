@@ -8,3 +8,6 @@ words_set.add("keys")
 words_set.remove("bag")
 
 number_set1.pop()
+
+number_set3 = number_set1.union(number_set2)
+print(number_set3)
