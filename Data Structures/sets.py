@@ -5,3 +5,5 @@ words_set = {"book","bag","shoes","laptop","book"}
 words_set.add("keys")
 
 words_set.remove("bag")
+
+number_set.pop()
