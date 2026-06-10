@@ -14,3 +14,6 @@ print(number_set3)
 
 number_set4 = number_set1.intersection(number_set2)
 print(number_set4)
+
+number_set5 = number_set1.difference(number_set2)
+print(number_set5)
