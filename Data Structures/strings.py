@@ -19,3 +19,5 @@ print(string1.startswith("the"))
 print(string2.endswith("DOG"))
 
 print(string2.find("THE"))
+
+print(string1.count("o"))
