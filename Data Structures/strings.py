@@ -1,4 +1,4 @@
-string1 = "the quick brown box"
+string1 = "the quick brown fox"
 
 print(string1.upper())
 print(string1.title())
@@ -14,3 +14,6 @@ print(string3.replace("Java","Python").strip())
 
 words = string1.split()
 print(words)
+
+print(string1.startswith("the"))
+print(string2.endswith("DOG"))
