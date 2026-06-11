@@ -11,3 +11,6 @@ print(string3)
 print(string3.strip())
 string3.replace("Java","Python")
 print(string3.replace("Java","Python").strip())
+
+words = string1.split()
+print(words)
