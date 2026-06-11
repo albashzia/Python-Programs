@@ -9,3 +9,5 @@ print(string2.lower())
 string3 = "   I like Java     "
 print(string3)
 print(string3.strip())
+string3.replace("Java","Python")
+print(string3.replace("Java","Python").strip())
